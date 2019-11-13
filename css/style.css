@@ -1,0 +1,71 @@
+#carouselExampleControls {padding: 5%;}
+.view {
+    background: url("https://static.tildacdn.com/lib/unsplash/3d0aa4dc-964b-8865-61fd-e922f8862c19/photo.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #5E786B;
+}
+
+.top-nav-collapse {
+    background-color: #5E786B;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #5E786B;
+    }
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+.first__row{
+    font-size: 20px;
+    
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    
+}
+.second__row{
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Lato', sans-serif;
+}
+.third__row{
+    text-align: center;
+    margin-left: 100;
+    font-family: 'Lato', sans-serif;
+}
+.last__row{
+
+}
+.aside__2 { 
+    float:right; 
+    width: 40%; 
+    background-color: #fff; 
+    color: black; 
+    padding:5px;  
+    margin:25px; 
+    height:100px; 
+margin-top: -20px;
+font-family: 'Lato', sans-serif;
+} 
+.text_1{
+    float:left;
+    width: 40%;
+    background-color: #fff; 
+    color: black; 
+  
+}
+.col-md-12{
+    justify-content: space-between;
+}
