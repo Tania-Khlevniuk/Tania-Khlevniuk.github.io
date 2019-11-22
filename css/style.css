@@ -5,19 +5,19 @@
 }
 
 .navbar {
-    background-color: #5E786B;
+    background-color:  #001a00;
 }
 
 .top-nav-collapse {
-    background-color: #5E786B;
+    background-color:  #001a00;
 }
 .color_change{
-    background-color: #5E786B;
+    background-color:  #001a00;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #5E786B;
+        background-color: #001a00;
     }
 }
 p{
