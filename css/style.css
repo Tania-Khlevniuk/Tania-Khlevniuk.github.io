@@ -11,6 +11,9 @@
 .top-nav-collapse {
     background-color: #5E786B;
 }
+.color_change{
+    background-color: #5E786B;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar {
@@ -44,9 +47,6 @@ header,
     text-align: center;
     margin-left: 100;
     font-family: 'Lato', sans-serif;
-}
-.last__row{
-
 }
 .aside__2 { 
     float:right; 
@@ -117,3 +117,16 @@ font-family: 'Lato', sans-serif;
           font-size: 16px;
         }
       }
+      .map-container-3{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+        .map-container-3 iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        }
